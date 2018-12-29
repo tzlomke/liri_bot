@@ -38,13 +38,17 @@ function start() {
 function concertThis() {
     axios.get("https://rest.bandsintown.com/artists/" + keyword + "/events?app_id=6d9b15f09f67304fbd702249a8b58714")
     .then(function(response) {
-        for (var i = 0; i < response.data.length; i++) {
-            var showData = "\nVenue: " + response.data[i].venue.name +
-                "\nLocation: " + response.data[i].venue.city +
-                "\nDate: " + moment(response.data[i].datetime).format("MM/DD/YYYY") +
-                "\n=====================================";
+        if (response.data.length === 0) {
+            console.log("\nNo tour dates scheduled.");
+        } else {
+            for (var i = 0; i < response.data.length; i++) {
+                var showData = "\nVenue: " + response.data[i].venue.name +
+                    "\nLocation: " + response.data[i].venue.city +
+                    "\nDate: " + moment(response.data[i].datetime).format("MM/DD/YYYY") +
+                    "\n=====================================";
 
-            console.log(showData);
+                console.log(showData);
+            }
         }
     })
 }
