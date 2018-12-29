@@ -67,8 +67,8 @@ function spotifyThisSong() {
 
         for (var i = 0; i < data.tracks.items.length; i++) {
             var songData = "\nArtist: " + data.tracks.items[i].artists[0].name
-                + "\nTrack Name: " + data.tracks.items[i].name
-                + "\nAlbum Name: " + data.tracks.items[i].album.name
+                + "\nTrack: " + data.tracks.items[i].name
+                + "\nAlbum: " + data.tracks.items[i].album.name
                 + "\nPreview URL: " + data.tracks.items[i].preview_url
                 + "\n=====================================";
 
@@ -77,9 +77,26 @@ function spotifyThisSong() {
     });
 };
 
-// function movieThis() {
+function movieThis() {
+    if (keyword === "") {
+        keyword = "Mr. Nobody";
+    };
 
-// }
+    axios.get("http://www.omdbapi.com/?t=" + keyword + "=&plot=short&apikey=trilogy")
+    .then(function(response) {   
+        var movieData = "\nTitle: " + response.data.Title
+            + "\nRelease Year: " + response.data.Year
+            + "\nIMDB Rating: " + response.data.imdbRating
+            + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value
+            + "\nCountry: " + response.data.Country
+            + "\nLanguage: " + response.data.Language
+            + "\nPlot Summary: " + response.data.Plot
+            + "\nActors: " + response.data.Actors
+            + "\n=====================================";
+
+        console.log(movieData);
+    });
+};
 
 // function doWhatItSays() {
 
