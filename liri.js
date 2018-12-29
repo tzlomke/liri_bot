@@ -98,8 +98,19 @@ function movieThis() {
     });
 };
 
-// function doWhatItSays() {
+function doWhatItSays() {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+          return console.log(error);
+        };
+      
+        dataArr = data.split(",");
 
-// }
+        command = dataArr[0];
+        keyword = dataArr[1];
+
+        start();
+      });
+};
 
 start();
