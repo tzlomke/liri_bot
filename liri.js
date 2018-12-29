@@ -7,7 +7,7 @@ var fs = require("fs");
 var keys = require("./keys");
 
 // Spotify Keys
-var spotify = new Spotify(keys.spotify);
+// var spotify = new Spotify(keys.spotify);
 
 // Command Line Arguments
 var command = process.argv[2];
@@ -38,20 +38,20 @@ function start() {
 function concertThis() {
     axios.get("https://rest.bandsintown.com/artists/" + keyword + "/events?app_id=6d9b15f09f67304fbd702249a8b58714")
     .then(function(response) {
-        response.data.forEach(gig => {
-            var gigData = "Venue: " + gig.venue.name 
-                + "\nLocation: " + gig.venue.city
-                + "\nDate: " + moment(gig.datetime).format("MM/DD/YYYY")
-                + "\n===============================";
+        for (var i = 0; i < response.data.length; i++) {
+            var showData = "\nVenue: " + response.data[i].venue.name +
+                "\nLocation: " + response.data[i].venue.city +
+                "\nDate: " + moment(response.data[i].datetime).format("MM/DD/YYYY") +
+                "\n=====================================";
 
-            console.log(gigData);
-        });
-    });
-};
-
-function spofityThisSong() {
-
+            console.log(showData);
+        }
+    })
 }
+
+// function spofityThisSong() {
+
+// }
 
 // function movieThis() {
 
