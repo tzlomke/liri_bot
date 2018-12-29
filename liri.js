@@ -49,6 +49,20 @@ function concertThis() {
                     "\n=====================================";
 
                 console.log(showData);
+
+                fs.appendFile(
+                    "log.txt", 
+        
+                    "\nCommand: " + command
+                    + "\nKeyword: " + keyword
+                    + showData,
+        
+                    function(err) {
+                        if (err) {
+                         console.log(err);
+                        };
+                    }
+                );
             };
         };
     });
@@ -73,6 +87,20 @@ function spotifyThisSong() {
                 + "\n=====================================";
 
             console.log(songData);
+
+            fs.appendFile(
+                "log.txt", 
+    
+                "\nCommand: " + command
+                + "\nKeyword: " + keyword
+                + songData,
+    
+                function(err) {
+                    if (err) {
+                     console.log(err);
+                    };
+                }
+            );
         };
     });
 };
@@ -95,6 +123,20 @@ function movieThis() {
             + "\n=====================================";
 
         console.log(movieData);
+
+        fs.appendFile(
+            "log.txt", 
+
+            "\nCommand: " + command
+            + "\nKeyword: " + keyword
+            + movieData,
+
+            function(err) {
+                if (err) {
+                 console.log(err);
+                };
+            }
+        );
     });
 };
 
