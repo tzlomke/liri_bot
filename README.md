@@ -24,13 +24,13 @@ Commands are input as simple command line arguments. After typing **node liri.js
 
 ### Concert-This
 ###### Input
-![Input] (/images/concert-this_input.png)
+![Input] (../images/concert-this_input.png)
 ###### Output
 ![Output] (/images/concert-this_output.png)
 
 ### Spotify-This-Song
 ###### Input
-![Input] (/images/spotify-this-song_input.png)
+![Input] (../images/spotify-this-song_input.png)
 ###### Output
 ![Output] (/images/spotify-this-song_output.png)
 
