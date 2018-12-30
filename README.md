@@ -1,7 +1,7 @@
 # LIRI Bot
 
 ## LIRI Bot: A Language Interpretation and Recognition Interface
-LIRI Bot is a node.js-based CLI App designed to receive user queries and locate relevant information on movies, songs and concerts.
+LIRI Bot is a node.js-based CLI App designed to receive user queries and locate relevant information on movies, songs and concerts. Commands, user queries and subsequent results are stored to the log.txt file.
 
 ## Motivation
 The LIRI Bot was an opportunity to get familiarized with CLI apps, NPM packages, and back-end API implementation while creating something that could one day be further developed for real-world use.
