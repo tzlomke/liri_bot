@@ -24,7 +24,7 @@ Commands are input as simple command line arguments. After typing **node liri.js
 
 ### Concert-This
 ###### Input
-![Input] (../images/concert-this_input.png)
+![Input] (./images/concert-this_input.png)
 ###### Output
 ![Output] (/images/concert-this_output.png)
 
