@@ -3,6 +3,9 @@
 ## LIRI Bot: A Language Interpretation and Recognition Interface
 LIRI Bot is a node.js-based CLI App designed to receive user queries and locate relevant information on movies, songs and concerts.
 
+## Motivation
+The LIRI Bot was an opportunity to get familiarized with CLI apps, NPM packages, and back-end API implementation while creating something that could one day be further developed for real-world use.
+
 ## Getting Started
 To get started, clone the repository at https://github.com/tzlomke/liri_bot and install the required NPM packages (axios, node-spotify-api, dotenv, and moment). Once installed, LIRI Bot can be run from your preferred command line interface and accepts the following commands:
 
