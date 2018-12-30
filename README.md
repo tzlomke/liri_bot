@@ -24,39 +24,39 @@ Commands are input as simple command line arguments. After typing **node liri.js
 
 ### Concert-This
 ###### Input
-![Input] (./images/concert-this_input.png)
+![Input](images/concert-this_input.png)
 ###### Output
-![Output] (/images/concert-this_output.png)
+![Output](images/concert-this_output.png)
 
 ### Spotify-This-Song
 ###### Input
-![Input] (../images/spotify-this-song_input.png)
+![Input](images/spotify-this-song_input.png)
 ###### Output
-![Output] (/images/spotify-this-song_output.png)
+![Output](images/spotify-this-song_output.png)
 
 ##### Spotify-This-Song Default
 ###### Input
-![Input] (/images/spotify-this-song_no_keyword.png)
+![Input](images/spotify-this-song_no_keyword.png)
 ###### Output
-![Output] (/images/spotify-this-song_no_keyword_output.png)
+![Output](images/spotify-this-song_no_keyword_output.png)
 
 ### Movie-This
 ###### Input
-![Input] (/images/movie-this_input.png)
+![Input](images/movie-this_input.png)
 ###### Output
-![Output] (/images/movie-this_output.png)
+![Output](images/movie-this_output.png)
 
 #### Movie-This Default
 ###### Input
-![Input] (/images/movie-this_no_keyword.png)
+![Input](images/movie-this_no_keyword.png)
 ###### Output
-![Output] (/images/movie-this_no_keyword_output.png)
+![Output](images/movie-this_no_keyword_output.png)
 
 ### Do-What-It-Says
 ###### Input
-![Input] (/images/do-what-it-says_input.png)
+![Input](images/do-what-it-says_input.png)
 ###### Output
-![Output] (/images/do-what-it-says_output.png)
+![Output](images/do-what-it-says_output.png)
 
 ## Author
 Taylor Zlomke | https://github.com/tzlomke/
