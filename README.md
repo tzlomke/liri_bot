@@ -24,42 +24,42 @@ Commands are input as simple command line arguments. After typing **node liri.js
 
 ### Concert-This
 ###### Input
-![Concert-This Input] (/images/concert-this_input.png)
+![Concert-This Input] (images/concert-this_input.png)
 ###### Output
-![Concert-This Output] (/images/concert-this_output.png)
+![Concert-This Output] (images/concert-this_output.png)
 
 
 ### Spotify-This-Song
 ###### Input
-![Spotify-This-Song Input] (/images/spotify-this-song_input.png)
+![Spotify-This-Song Input] (images/spotify-this-song_input.png)
 ###### Output
-![Spotify-This-Song Output] (/images/spotify-this-song_output.png)
+![Spotify-This-Song Output] (images/spotify-this-song_output.png)
 
-#### Spotify-This-Song Default
+##### Spotify-This-Song Default
 ###### Input
-![Spotify-This-Song Default Input] (/images/spotify-this-song_no_keyword.png)
+![Spotify-This-Song Default Input] (images/spotify-this-song_no_keyword.png)
 ###### Output
-![Spotify-This-Song Default Output] (/images/spotify-this-song_no_keyword_output.png)
+![Spotify-This-Song Default Output] (images/spotify-this-song_no_keyword_output.png)
 
 
 ### Movie-This
 ###### Input
-![Movie-This Input] (/images/movie-this_input.png)
+![Movie-This Input] (images/movie-this_input.png)
 ###### Output
-![Movie-This Output] (/images/movie-this_output.png)
+![Movie-This Output] (images/movie-this_output.png)
 
 #### Movie-This Default
 ###### Input
-![Movie-This Default Input] (/images/movie-this_no_keyword.png)
+![Movie-This Default Input] (images/movie-this_no_keyword.png)
 ###### Output
-![Movie-This Default Output] (/images/movie-this_no_keyword_output.png)
+![Movie-This Default Output] (images/movie-this_no_keyword_output.png)
 
 
 ### Do-What-It-Says
 ###### Input
-![Do-What-It-Says Input] (/images/do-what-it-says_input.png)
+![Do-What-It-Says Input] (images/do-what-it-says_input.png)
 ###### Output
-![Do-What-It-Says Output] (/images/do-what-it-says_output.png)
+![Do-What-It-Says Output] (images/do-what-it-says_output.png)
 
 ## Author
 Taylor Zlomke | https://github.com/tzlomke/
